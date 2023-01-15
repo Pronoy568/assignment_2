@@ -1,0 +1,660 @@
+/* Common style */
+* {
+  margin: 0;
+}
+
+/* Header section */
+header {
+  background-color: rgba(255, 244, 231, 1);
+  height: 1280px;
+}
+
+/* nav bar section start */
+.navbar-section nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 65px;
+}
+.navbar-section h2 {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.nav-text a {
+  text-decoration: none;
+  color: #424242;
+  font-weight: 600;
+  font-size: 18px;
+  padding-left: 35px;
+}
+
+/* Heading Section with image */
+.heading-section {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.heading-section h1 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #131313;
+  padding-bottom: 20px;
+}
+.heading-section p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  padding-bottom: 30px;
+}
+.heading-section img {
+  width: 80%;
+  height: 700px;
+}
+.btn-primary {
+  padding: 18px 22px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: rgba(255, 144, 14, 1);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 144, 14, 1);
+  margin-bottom: 40px;
+}
+
+/******************************************
+ Header section Responsive For Mobile Device 
+                  Start
+******************************************/
+@media screen and (max-width: 576px) {
+  /* nav bar section  */
+  header {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+  }
+  .navbar-section nav {
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 25px;
+  }
+  .navbar-section h2 {
+    padding-bottom: 20px;
+    font-size: 44px;
+  }
+  .nav-text a {
+    padding-left: 15px;
+  }
+
+  /* Heading Section with image */
+  .heading-section {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .heading-section h1 {
+    font-size: 50px;
+  }
+  .btn-primary {
+    padding: 15px 20px;
+  }
+  .heading-section img {
+    width: 85%;
+    height: 100%;
+  }
+}
+/*******************************************
+ Header section Responsive For Mobile Device 
+                    END
+*******************************************/
+/******************************************
+ Header section Responsive For Medium Device 
+                  Start
+******************************************/
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  /* nav bar section  */
+  header {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+  }
+  .navbar-section nav {
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 25px;
+  }
+  .navbar-section h2 {
+    padding-bottom: 20px;
+    font-size: 44px;
+  }
+  .nav-text a {
+    padding-left: 15px;
+  }
+
+  /* Heading Section with image */
+  .heading-section {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .heading-section h1 {
+    font-size: 50px;
+  }
+  .btn-primary {
+    padding: 15px 20px;
+  }
+  .heading-section img {
+    width: 85%;
+    height: 100%;
+  }
+}
+/*******************************************
+ Header section Responsive For Medium Device 
+                    END
+*******************************************/
+
+/* Quick list Features */
+.quick-list-section {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 80px 0 80px 0;
+}
+.quick-list-img-section div {
+  display: flex;
+}
+.quick-list-img-section img {
+  width: 86%;
+  padding: 0 22px 22px 0;
+}
+.quick-list-img-section {
+  width: 60%;
+}
+.quick-list-text-section {
+  width: 40%;
+  margin-left: 80px;
+}
+.quick-list-text-section h1 {
+  font-weight: 400;
+  font-size: 45px;
+  font-family: "Work Sans";
+  padding-bottom: 18px;
+}
+.quick-list-text-section p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  padding-bottom: 30px;
+}
+.text-gray {
+  color: rgba(114, 114, 114, 1);
+}
+.text-orange {
+  color: rgba(255, 144, 14, 1);
+}
+
+/***********************************************
+Quick list Features Responsive For Mobile Device 
+                     Start
+************************************************/
+@media screen and (max-width: 576px) {
+  /* Quick list Features  */
+  .quick-list-section,
+  .quick-list-img-section div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .quick-list-img-section {
+    width: 100%;
+  }
+  .quick-list-text-section {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
+/*************************************************
+ Quick list Features Responsive For Mobile Device 
+                       END
+**************************************************/
+/***********************************************
+Quick list Features Responsive For Medium Device 
+                     Start
+************************************************/
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  /* Quick list Features  */
+  .quick-list-section,
+  .quick-list-img-section div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .quick-list-img-section {
+    width: 90%;
+  }
+  .quick-list-img-section img {
+    width: 60%;
+  }
+  .quick-list-text-section {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
+/*************************************************
+ Quick list Features Responsive For Medium Device 
+                       END
+**************************************************/
+
+/* Features Section */
+.features-section {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.features-article h1 {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  border-left: 4px solid rgba(255, 144, 14, 1);
+  padding-left: 22px;
+  margin-bottom: 24px;
+}
+.features-article p {
+  color: #727272;
+  margin-bottom: 28px;
+}
+.card {
+  width: 500px;
+  height: 100px;
+  padding: 30px;
+  margin-bottom: 28px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+}
+.card p {
+  margin-top: 5px;
+}
+.architect-img img {
+  width: 94%;
+}
+.architect-img {
+  margin-left: 150px;
+}
+.btn-secondary {
+  padding: 44px 38px;
+  background: #ff900e;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: "Work Sans";
+  font-weight: 700;
+  border: 1px solid rgba(255, 144, 14, 1);
+  position: relative;
+  top: -100px;
+  left: 60px;
+}
+.btn-secondary h1 {
+  font-size: 56px;
+}
+.btn-secondary p {
+  font-size: 24px;
+}
+
+/*********************************************
+ Features Section Responsive For Mobile Device 
+                   Start
+**********************************************/
+@media screen and (max-width: 576px) {
+  /* Features Section */
+  .features-section {
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 5em;
+  }
+  .card {
+    width: 90%;
+    height: 70%;
+    padding: 15px 10px 5px 15px;
+  }
+  .card p {
+    margin-top: 1.5em;
+  }
+  .architect-img img {
+    width: 90%;
+  }
+  .architect-img {
+    margin-left: 2rem;
+  }
+  .btn-secondary {
+    padding: 20px 30px;
+    position: relative;
+    top: 50px;
+    left: 2rem;
+  }
+  .architect-img-btn {
+    text-align: center;
+  }
+  .btn-secondary h1 {
+    font-size: 32px;
+  }
+  .btn-secondary p {
+    font-size: 20px;
+  }
+}
+/*********************************************
+ Features Section Responsive For Mobile Device 
+                    End
+**********************************************/
+/*********************************************
+ Features Section Responsive For Medium Device 
+                   Start
+**********************************************/
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  /* Features Section */
+  .features-section {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 5em;
+  }
+  .card {
+    width: 90%;
+    height: 70%;
+    padding: 15px 10px 5px 15px;
+  }
+  .card p {
+    margin-top: 1.5em;
+  }
+  .architect-img img {
+    width: 90%;
+  }
+  .architect-img {
+    margin-left: 2rem;
+  }
+  .btn-secondary {
+    padding: 20px 30px;
+    position: relative;
+    top: 50px;
+    left: 2rem;
+  }
+  .architect-img-btn {
+    text-align: center;
+  }
+  .btn-secondary h1 {
+    font-size: 32px;
+  }
+  .btn-secondary p {
+    font-size: 20px;
+  }
+}
+/*********************************************
+ Features Section Responsive For Medium Device 
+                    End
+**********************************************/
+
+/* Some Facts Section */
+.facts-section {
+  width: 80%;
+  margin: 0 auto;
+}
+.facts-section h2 {
+  font-family: "Work Sans";
+  color: #131313;
+  font-weight: 700;
+  font-size: 46px;
+  padding-bottom: 20px;
+}
+.facts-section h4 {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+.facts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.fact {
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  width: 200px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: all ease-in-out 0.8s;
+}
+.fact:hover {
+  background-color: #dfdfdf;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+}
+.fact h1 {
+  padding-top: 10px;
+  font-weight: 600;
+  font-size: 36px;
+  color: #424242;
+}
+.fact p {
+  font-weight: 600;
+  font-size: 18px;
+  color: #727272;
+}
+
+/***********************************************
+ Some Facts Section Responsive For Mobile Device 
+                      Start
+************************************************/
+@media screen and (max-width: 576px) {
+  .facts {
+    flex-direction: column;
+  }
+  .fact {
+    margin-bottom: 15px;
+  }
+}
+/**********************************************
+Some Facts Section Responsive For Mobile Device 
+                      End
+***********************************************/
+/***********************************************
+ Some Facts Section Responsive For Medium Device 
+                      Start
+************************************************/
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .facts {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .fact {
+    margin-bottom: 15px;
+  }
+}
+/**********************************************
+Some Facts Section Responsive For Medium Device 
+                      End
+***********************************************/
+/* Our Sponsors Section */
+.Sponsors-section {
+  text-align: center;
+}
+.Sponsors-section h1 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.Sponsors-section p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 50px;
+}
+.Sponsors {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 80px;
+}
+
+/************************************************
+ Our Sponsors Section Responsive For Mobile Device 
+                    Start
+*************************************************/
+@media screen and (max-width: 576px) {
+  .Sponsors {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .Sponsor {
+    margin-bottom: 25px;
+  }
+}
+/************************************************
+Our Sponsors Section Responsive For Mobile Device 
+                   End
+************************************************/
+/************************************************
+ Our Sponsors Section Responsive For Medium Device 
+                    Start
+*************************************************/
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .Sponsors {
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .Sponsor {
+    margin-bottom: 25px;
+  }
+}
+/************************************************
+Our Sponsors Section Responsive For Medium Device 
+                   End
+************************************************/
+/********************************
+       Extra Section 
+*********************************/
+.section-advertisement {
+  text-align: center;
+}
+.section-advertisement h1 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.section-advertisement p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 50px;
+}
+.advertisements {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+.advertisement {
+  border-radius: 20px;
+  margin: 10px;
+  height: 450px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.advertisement img {
+  border-radius: 20px;
+  padding: 15px 0;
+}
+.advertisement h2 {
+  font-weight: 700;
+  font-size: 38px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.advertisement:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/*******************************************
+ Extra Section Responsive For Mobile Device 
+                  Start
+*******************************************/
+@media screen and (max-width: 576px) {
+  .advertisements {
+    flex-direction: column;
+    width: 90%;
+    padding-bottom: 20px;
+  }
+  .advertisement {
+    margin-bottom: 25px;
+  }
+}
+/*******************************************
+ Extra Section Responsive For Mobile Device 
+                  End
+********************************************/
+/*******************************************
+ Extra Section Responsive For Medium Device 
+                  Start
+*******************************************/
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .advertisements {
+    flex-wrap: wrap;
+    width: 80%;
+    padding-bottom: 30px;
+    justify-content: center;
+  }
+  .advertisement {
+    margin-bottom: 25px;
+  }
+}
+/*******************************************
+ Extra Section Responsive For Medium Device 
+                  End
+********************************************/
+/* Footer */
+footer {
+  background: #fff4e7;
+  height: 90px;
+  border-radius: 8px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer p {
+  color: #424242;
+}
+
+/*******************************************
+ Footer Section Responsive For Mobile Device 
+                  Start
+*******************************************/
+@media screen and (max-width: 576px) {
+  footer {
+    height: 80px;
+    text-align: center;
+  }
+}
+/*******************************************
+ Footer Section Responsive For Mobile Device 
+                  End
+********************************************/
